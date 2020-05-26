@@ -1,0 +1,154 @@
+大型企劃  大型企划
+1. 了解急急棒怎麼玩
+2. 整理整個項目的材料及數量、淘寶連結
+3. 編程
+4. 實際操作項目
+
+参考链接
+29电流急急棒                      https://sites.google.com/site/wenyumaker2/02micro-bit-yan-jiu/29dian-liu-ji-ji-bang
+oo控制电流急急棒                  https://www.youtube.com/watch?v=l8ROuxa38i8
+火焰大挑战                        https://www.youtube.com/watch?v=I9AE3UzT_LM
+阿布拉機-電流急急棒               https://www.youtube.com/watch?v=CMFmQXBrUNE
+2018展示                          https://www.youtube.com/watch?v=4aCeafa8LRU
+瓦通纸急急棒                      https://www.youtube.com/watch?v=tS12sz4dm9M&pbjreload=10
+簡易轉鼓棒教學                    https://www.youtube.com/watch?v=Djur70zm2jw
+特制大型電流急急棒                https://www.youtube.com/watch?v=I9AE3UzT_LM&t=9s
+方順吉的電流急急棒                https://youtube.com/watch?v=Djur70zm2jw
+
+材料
+
+microbit及usb线
+锡纸
+无源蜂鸣器
+舵机
+电池盒
+直流电机
+i12C液晶显示器
+铁丝线
+马达
+
+单个测试
+单个伺机  https://www.youtube.com/watch?v=iRWWWPSmLts
+
+功能过程(功能)_
+S级正极  横杆p0   通过正极激活      （蜂鸣器）
+灰色gnd 红色正极 黄色p1   -级负极  +正极   com正极 no负极 nc信号  dc正负极 in信号   （舵机 继电器 ）
+SDA链接p20   SCL链接p19                      (液晶1602)
+灰色gnd 红色3V  黄色p0                       (伺机服务)
+p1 p2 p8                                     (锡纸按钮)
+p1 p2 p8                                     (锡纸点击激活led灯) 鳄鱼夹扩展板里没有的端口不能用
+
+
+
+（四位数码管）
+
+
+
+microbit速度控制
+microbit speed control
+microbit  motor speed
+
+
+电机驱动扩展板                    http://wiki.dfrobot.com.cn/index.php?title=(SKU:DFR0548)_micro:bit%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8%E6%89%A9%E5%B1%95%E6%9D%BF
+速度控制                          https://www.kidscoding8.com/8261.html
+轻型货车                          https://sites.google.com/view/microbitofthings/7-motor-control/10-vehicles?authuser=0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+電流急急棒 Ios  電流急急棒 Android
+    microbit 主板
+    USB线
+    蜂鸣器
+    两粒3A1.5v电池盒
+    接线3米    模型   急急棒
+
+实现过程
+    线圈    一端p2端口  一端3v
+    蜂鸣器  一端 p0端口 一端 GND
+    没循环一次有一个音调  一个数字输出
+
+智能小車ios   智能小車android
+    两个单轮
+    2A1.5V电池4粒及电池盒
+    3A1.5v电池2粒及电池盒
+    3个鳄鱼夹
+    7条杜邦线
+    2个伺机
+    2个接线端子
+    5张3M膠紙
+    microbit主板
+    microbit usb线
+    硬卡纸
+    剪刀
+
+
+
+实现过程
+    2接线端子安在电池盒上面
+    2个伺机分别安在2个单轮上
+    双面贴纸分别贴在伺机上
+    之后分别贴在硬纸板的两面
+    电池贴在硬纸板的背面极端
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
