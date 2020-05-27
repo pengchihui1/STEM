@@ -4,6 +4,16 @@
 3. 編程
 4. 實際操作項目
 
+套件意见
+手机蓝牙编程    电脑copy文件编程
+科学原理多一些
+正极红线  负极黑色
+套件购买有无microbit主板
+钢琴外套
+项目传感器搭配多样化
+影片部分细拍化
+youtube上传视频 添加公司链接  公司水印
+
 参考链接
 29电流急急棒                      https://sites.google.com/site/wenyumaker2/02micro-bit-yan-jiu/29dian-liu-ji-ji-bang
 oo控制电流急急棒                  https://www.youtube.com/watch?v=l8ROuxa38i8
@@ -15,22 +25,11 @@ oo控制电流急急棒                  https://www.youtube.com/watch?v=l8ROuxa
 特制大型電流急急棒                https://www.youtube.com/watch?v=I9AE3UzT_LM&t=9s
 方順吉的電流急急棒                https://youtube.com/watch?v=Djur70zm2jw
 
-材料
-
-microbit及usb线
-锡纸
-无源蜂鸣器
-舵机
-电池盒
-直流电机
-i12C液晶显示器
-铁丝线
-马达
-
 单个测试
 单个伺机  https://www.youtube.com/watch?v=iRWWWPSmLts
+手机蓝牙  https://cloud.tencent.com/developer/news/219736
 
-功能过程(功能)_
+功能过程
 S级正极  横杆p0   通过正极激活      （蜂鸣器）
 灰色gnd 红色正极 黄色p1   -级负极  +正极   com正极 no负极 nc信号  dc正负极 in信号   （舵机 继电器 ）
 SDA链接p20   SCL链接p19                      (液晶1602)
@@ -42,16 +41,79 @@ p1 p2 p8                                     (锡纸点击激活led灯) 鳄鱼�
 
 （四位数码管）
 
-
-
 microbit速度控制
 microbit speed control
 microbit  motor speed
 
+电机驱动扩展板                                http://wiki.dfrobot.com.cn/index.php?title=(SKU:DFR0548)_micro:bit%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8%E6%89%A9%E5%B1%95%E6%9D%BF
+速度控制                                      https://www.kidscoding8.com/8261.html
+轻型货车                                      https://sites.google.com/view/microbitofthings/7-motor-control/10-vehicles?authuser=0
+步步电机                                      https://blog.csdn.net/hhaowang/article/details/86359014?utm_source=po_vip
+变速风扇                                      https://mc.dfrobot.com.cn/thread-38049-1-1.html
+电位器控制马达                                https://www.youtube.com/watch?v=zI9OVgXY4ec
 
-电机驱动扩展板                    http://wiki.dfrobot.com.cn/index.php?title=(SKU:DFR0548)_micro:bit%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8%E6%89%A9%E5%B1%95%E6%9D%BF
-速度控制                          https://www.kidscoding8.com/8261.html
-轻型货车                          https://sites.google.com/view/microbitofthings/7-motor-control/10-vehicles?authuser=0
+风扇                  0-255
+电位器                0-1023
+ws8212芯片            一个端口多色彩控制
+
+智能小车              https://docs.google.com/document/d/1p2WoifP_b-6mHnuxuGGZWELmnxWg1Qc5v1drayxpnzk/edit?usp=sharing
+电流急急棒            https://docs.google.com/document/d/1I77-gF8l9Tva8tfp0EQ3JGec6EVsPnzkk1wkO0R0FM8/edit?usp=sharing
+
+
+手机版链接micro:bit步骤
+手机下载micro:bit app并打开蓝牙
+將 micro:bit 硬件 a + b 按鈕和 reset 按鈕一起按
+micro:bit app选择connect选择pair your micro:bit选择next
+micro:bit 硬件會出現一個密碼圖案，在 micro:bit app中輸入一樣的圖案
+連接完成按 OK
+回到app首页 选择 create code编辑
+选择MakeCode editor模式 创建项目编写程序
+回到app首页 选择flash上传合适的项目到microbit主板
+
+自动灌溉（植物）
+microbit主板
+电池盒
+继电器
+水泵（beng）
+土壤检测湿度
+面包板
+面包线
+led灯
+
+数字PID控制器
+直流电动机
+光学旋转编码器
+git文件 https://github.com/arduinoNube/digita
+
+DIY机器人
+智能家居
+
+演讲与歌唱
+鳄鱼夹线
+microbit
+电池盒
+音乐播放器
+
+遥控精灵灯/led旋转驱动（彩灯）
+microbit
+电池盒
+鳄鱼夹
+鳄鱼夹扩展板
+24位WS2812彩灯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
