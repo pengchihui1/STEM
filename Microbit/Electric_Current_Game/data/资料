@@ -28,6 +28,12 @@ oo控制电流急急棒                  https://www.youtube.com/watch?v=l8ROuxa
 单个测试
 单个伺机  https://www.youtube.com/watch?v=iRWWWPSmLts
 手机蓝牙  https://cloud.tencent.com/developer/news/219736
+三个      https://www.youtube.com/watch?v=XIY9shWvKY4
+
+microbit速度控制
+microbit speed control
+microbit  motor speed
+microbit project easy
 
 功能过程
 S级正极  横杆p0   通过正极激活      （蜂鸣器）
@@ -37,13 +43,6 @@ SDA链接p20   SCL链接p19                      (液晶1602)
 p1 p2 p8                                     (锡纸按钮)
 p1 p2 p8                                     (锡纸点击激活led灯) 鳄鱼夹扩展板里没有的端口不能用
 
-
-
-（四位数码管）
-
-microbit速度控制
-microbit speed control
-microbit  motor speed
 
 电机驱动扩展板                                http://wiki.dfrobot.com.cn/index.php?title=(SKU:DFR0548)_micro:bit%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8%E6%89%A9%E5%B1%95%E6%9D%BF
 速度控制                                      https://www.kidscoding8.com/8261.html
@@ -57,7 +56,7 @@ microbit  motor speed
 ws8212芯片            一个端口多色彩控制
 
 智能小车              https://docs.google.com/document/d/1p2WoifP_b-6mHnuxuGGZWELmnxWg1Qc5v1drayxpnzk/edit?usp=sharing
-电流急急棒            https://docs.google.com/document/d/1I77-gF8l9Tva8tfp0EQ3JGec6EVsPnzkk1wkO0R0FM8/edit?usp=sharing
+电流急急棒            https://docs.google.com/document/d/1I77-gF8l9Tva8tfp0EQ3JGec6EVsPnzkk1wkO0R0FM8/edit
 
 
 手机版链接micro:bit步骤
@@ -80,13 +79,45 @@ microbit主板
 面包线
 led灯
 
-数字PID控制器
-直流电动机
-光学旋转编码器
-git文件 https://github.com/arduinoNube/digita
+自动门机器人
+microbit
+面包板
+面包线
+舵机
+ws8212彩灯
+人体感应
 
-DIY机器人
-智能家居
+场景假设
+检测下雨时，室内光线较暗，感应到有人时  彩灯开启
+睡觉按下开关时 关闭彩灯
+人在室内休息 着火了 报警
+雨滴传感器  关照传感器  ws8212彩灯 纸盒
+烟雾传感器  蜂鸣器
+
+简单版
+烟雾传感器 彩灯
+功能有烟雾的时候彩灯亮
+
+简单版
+彩灯 人体感应
+功能感应到人时彩灯亮
+
+原理
+紅外檢測  分为热电检测和光检测    利用物体辐射红外线的特点进行非接触的红外温度记录法
+人體感應  只能检测人体发出的波长为十几μm的红外信号
+雷达感应  发射电磁波  若雷达模块周围有移动的物体 接受移动物体反射回来的电磁波
+
+使用情况
+红外检测  主要应用领域为家电、玩具、防盗报警、感应门、感应灯具、感应开关
+          1.感应开关。产品应用到高性能红外探测器，利用热释电红外传感器来检测移动人体的红外辐射，只要人体在其探测范围内横切走过，红外自动开关就会产生电信号，启动负载。
+          2.
+人体感应  常应用于楼梯，走道，洗手间，电梯等许多一般公共生活场所
+          1. 用于会议室、办公区，洗手间，地下室。它可以做到人来灯开，人离灯灭，极大的避免了浪费，为你节约能源，也为您省去忘记关灯的痛苦。
+          2. 用于消毒房。人来，自动关掉消毒设备，人走，又自动开启设备。为您的健康保驾护航。
+          3. 用于酒店，宾馆等。取代现有的插卡取电，还可以监控房间的动态。人来，自动开启电源，人走，自动关闭总闸。人性化十足。
+          4. 用于卧室。它可以慢慢的将灯调暗，而后关掉，也可以慢慢的将灯调亮。
+          5. 用给空调。当您晚上睡着后，或者白天出门，忘记关空调，它会“监视”这一切，发个信号给您的空调，该休息了。
+          6. 用于学校和小区走廊，车库。它可以做到人来全亮，人走半亮，在保证安全的前提下，又极大节约能源。
 
 演讲与歌唱
 鳄鱼夹线
@@ -101,11 +132,21 @@ microbit
 鳄鱼夹扩展板
 24位WS2812彩灯
 
+操作杠游戏
+microbit
+扩展板
+鲁邦线
+操作杠传感器
+
+数字PID控制器
+直流电动机
+光学旋转编码器
+git文件 https://github.com/arduinoNube/digita
 
 
-
-
-
+DIY机器人
+智能家居
+DIY风传感器
 
 
 
