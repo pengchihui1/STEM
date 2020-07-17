@@ -1,0 +1,35 @@
+morse code for microbit的项目
+
+微比特摩尔斯
+这些文件包含Micro：bits的JS代码，用于在Micro：bits上发送（sender.js）和接收（receiver.js）Morse代码。
+由于通过无线电发送字符串的长度限制（您只能发送大约4-7个摩尔斯字符），而不是在接收方的末端解密消息，
+而是在发送时已在发送方的Micro：bit上解密了该消息。
+
+要使用这些程序，只需将代码复制粘贴到Micro：bit编辑器中，下载该程序并将其复制到Micro：bits。
+
+发送
+一个按钮： .（短）B按钮：-（长）A + B：空格（分隔字符）摇动：发送单词
+
+接收
+发件人摇动Micro：bit之后，Micro：bit会自动接收发送的消息。
+
+A按钮：再次查看最新消息B按钮：清除屏幕（如果消息只有一个字母长，它将保留在屏幕上，直到收到另一条消息
+
+
+morse code arduino 
+名称                     视频链接                                                                  程式码链接
+3d按键                     https://www.youtube.com/watch?v=PdGC0vG2ZGY                             https://github.com/mattiasjahnke/arduino-projects/tree/master/morse-keyboard
+硬币按键                   https://www.youtube.com/watch?v=Aqu1kLaUsRk                             https://blog.jfedor.org/2013/10/morse-code-usb-keyboard.html  
+按钮按键                   https://www.youtube.com/watch?v=fUfQgnDa1h0                             https://www.instructables.com/id/Morse-Code-Decoder/
+ATtiny85 3d按键            https://www.youtube.com/watch?v=5qVzMdR0zOA                             https://github.com/andyhighnumber/Attiny-Arduino-Games/tree/master/MorseAttinyArcade
+有按键效果没程式码          https://www.youtube.com/watch?v=8oa7bYCi1kM                      
+
+
+摩斯简单SOS信号（博客）     https://blog.csdn.net/qq_39969226/article/details/104485791          
+焊接类型摩斯               https://www.youtube.com/watch?v=RoPjw6Onit0
+
+morse code microbit
+名称                       视频链接                                                                 程式码链接
+mocrobit单击               https://www.youtube.com/watch?v=1ysOir_Bh2U
+三按键                     https://www.youtube.com/watch?v=qo2MH_AGzsI
+
