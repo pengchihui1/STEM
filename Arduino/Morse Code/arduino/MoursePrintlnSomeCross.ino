@@ -26,11 +26,11 @@ void loop()
   t2 = millis();                                 //按键结束时间
   digitalWrite(ledPin, LOW);                     //LED off on button release
   signal_len = t2 - t1;                          //按键时间差
-   if (signal_len < 600 && signal_len > 50)      //50-600毫秒输出点
+   if (signal_len < 500 && signal_len > 50)      //50-500毫秒输出点
   {
       Keyboard.println(".");
   }
-  else if (signal_len > 600)                     //600毫秒以上输出横
+  else if (signal_len > 500)                     //500毫秒以上输出横
   {
      Keyboard.println("-");
   }
