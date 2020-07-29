@@ -1,0 +1,45 @@
+
+不同类型的颜色传感器介绍（Color Sensor）
+YB-MVCO2 VER1.0 (arduino测试无效果)
+       内置ZC-CLS381颜色识别芯片,可通过不同颜色值，判断不同的颜色，制作颜色分拣器 仓库管理颜色
+       介绍             https://www.yahboom.com/study_module/croco_color 
+       淘宝链接(已有)    https://item.taobao.com/item.htm?id=609120539317&sourceType=item&ttid=227200@taobao_android_9.9.1&ut_sk=1.Xs2Z2vucg%2F8DAPxUaE5Ccpcg_21646297_1595924751186.GoodsTitleURL.1&un=b33133096f651e196eabd07a58355624&share_crt_v=1&spm=a2159r.13376460.0.0&sp_tk=NXhmaWNhRlpWVk4=&cpp=1&shareurl=true&short_name=h.VH84FxP&bxsign=scd15959252216279e091b4e3169f822f90156ae615749ab&sm=526e88&app=chrome
+       淘宝链接          https://item.taobao.com/item.htm?spm=a230r.1.14.1.109e2bebw7GaeG&id=598458076783&ns=1&abbucket=12#detail
+Hiwonder(arduino测试不稳定 效果不佳)        
+       淘宝链接(已有)    https://item.taobao.com/item.htm?spm=a230r.1.14.20.a45a6442kUU0zo&id=577739652684&ns=1&abbucket=12#detail
+TCS3200颜色感器介绍（四个小灯）  
+       介绍             https://blog.csdn.net/leansmall/article/details/83450280
+TCS230颜色传感器介绍(四个小灯) 
+       介绍             https://tech.hqew.com/fangan_427475
+TCS34725颜色传感器介绍  
+       介绍             https://blog.csdn.net/luo_5458/article/details/77993286
+
+Arduino 
+TCS34725(UNO) 
+   https://www.youtube.com/watch?v=uC2Vvs2vWgw&t=8s  Github https://github.com/adafruit/Adafruit_TCS34725
+TCS230  
+   https://www.youtube.com/watch?v=l1nQjJVEQz4
+   https://github.com/MajicDesigns/MD_TCS230
+黄绿红橘绿蓝 https://www.youtube.com/watch?v=g3i51hdfLaw
+
+
+问题已沟通
+youtube里面很多用TCS3200或者TCS230传感器
+开始理解为 有一个颜色转盘  有七种颜色   通过颜色传感器读取一个颜色  读取成功后  输出一个字母给游戏
+转盘原来 除了需要颜色外 需要按键按击一下 才输入一个字母
+
+转盘类(turntable,dial,turnplate)
+   
+
+非转盘类
+使用TCS3200或则TCS230 (Arduino Nano)
+     视频链接 https://www.youtube.com/watch?v=uczaIETo_Jg
+     项目链接 https://www.xtronical.com/coloursensing/
+创客智造(TCS3200 TCS34725)
+     文档链接 https://www.ncnynl.com/archives/201606/101.html
+
+进制字母
+https://forum.arduino.cc/index.php?topic=342953.0
+
+
+      
