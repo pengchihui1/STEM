@@ -1,0 +1,12 @@
+Arduino rgb sensor TCS34725(UNO)
+根据物体的颜色方向盘指定到对应扇形上的五种颜色
+指针采用小木棍
+    https://www.youtube.com/watch?v=uC2Vvs2vWgw&t=336s
+    https://github.com/adafruit/Adafruit_TCS34725/blob/master/examples/tcs34725/tcs34725.ino
+
+RGB Farb Sensor TCS34725 am Arduino(UNO)
+扇形红、浅红、黄、绿、紫  
+根据物体的颜色方向盘指定到对应扇形上的五种颜色
+指针采用吸管  
+    https://www.youtube.com/watch?v=bfOvx5b7ats
+    https://www.makerblog.at/2015/01/farben-erkennen-mit-dem-rgb-sensor-tcs34725-und-dem-arduino/
