@@ -4,7 +4,7 @@
 测试          数据Google求平均值 
 读取颜色后    需要按击确认
 
-Arduino Color Sensing Tutorial - TCS230 TCS3200 Color Sensor(UNO)
+Arduino Color Sensing Tutorial - TCS230 TCS3200 Color Sensor(Board)
 采用杜邦线
       https://www.youtube.com/watch?v=CPUXxuyd9xw
       https://howtomechatronics.com/tutorials/arduino/arduino-color-sensing-tutorial-tcs230-tcs3200-color-sensor/ 
@@ -12,24 +12,31 @@ Arduino Color Sensing Tutorial - TCS230 TCS3200 Color Sensor(UNO)
 Arduino Color Sensor Tutorial (TCS230) with Arduino Uno and ST7735 color TFT display(UNO)
 根据读取颜色屏幕显示对应的颜色    
       https://www.youtube.com/watch?v=hDAOGcI9cv4
-      http://educ8s.tv/arduino-color-sensor-tutorial/
+      https://github.com/Swap-File/tron-suit/tree/master/Disc/Software/Libraries/MD_TCS230
       
 
-Using the colour sensor TCS230 or TCS3200
+Using the colour sensor TCS230(Nano)
 视频中数据显示有些慢
 根据塑料小圆球输出rgb
       https://www.youtube.com/watch?v=uczaIETo_Jg
       https://www.xtronical.com/coloursensing/
 
-Arduino board  TCS3210
-需要焊接
-采用了google表记录数据
-      https://www.youtube.com/watch?v=udwVjE5eYJA
-      http://www.mediafire.com/file/2tiza50may392nw/test_color_sensor.rar/file
 
-Arduino COLOR sensor /Color Recognition Sensor TCS230
+Arduino COLOR sensor /Color Recognition Sensor TCS230(存在编码错误)
 四方形小卡片颜色读取
 使用了库 让数据更精确
 对比了颜色读取器中的RGB
       https://www.youtube.com/watch?v=JyHi8gI9vPY
-      https://www.instructables.com/id/Arduino-COLOR-Sensor-Color-Recognition-Sensor-TCS2/      
+      https://www.instructables.com/id/Arduino-COLOR-Sensor-Color-Recognition-Sensor-TCS2/     
+
+Color Sensing Using Arduino(Board/UNO)
+采用黑色四方形外壳包裹传感器 
+采用google表记录数据
+        https://www.youtube.com/watch?v=jzaj6iT7XJc
+        http://embeddedlaboratory.blogspot.com/2017/01/color-sensing-using-arduino.html
+
+
+ 端口
+ gnd OE  s1 s0
+ vcc out s2 s3
+
