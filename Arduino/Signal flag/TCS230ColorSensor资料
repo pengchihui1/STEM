@@ -3,6 +3,10 @@
 测试外壳      黑色外壳包裹传感器
 测试          数据Google求平均值 
 读取颜色后    需要按击确认
+黑匣子是为了最大程度地减少红外线和意外反射的影响
+
+进制字母
+https://forum.arduino.cc/index.php?topic=342953.0
 
 Arduino Color Sensing Tutorial - TCS230 TCS3200 Color Sensor(Board)
 采用杜邦线
