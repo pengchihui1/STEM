@@ -1,3 +1,6 @@
+#include <CapacitiveSensor.h>
+#include <Keyboard.h>
+
 #define NO_SAMPLES 100u  
 #define THRESHOLD  5u  
  
@@ -11,8 +14,11 @@
  uint16_t redData = 0;  
  uint16_t greenData = 0;  
  uint16_t blueData = 0;  
- void setup()   
- {  
+
+unsigned long signal_len,t1,t2;   //time for which button is pressed
+int inputPin = 2;                 //input pin for push button
+
+void setup(){
   pinMode(S0, OUTPUT);  
   pinMode(S1, OUTPUT);  
   pinMode(S2, OUTPUT);  
@@ -21,10 +27,19 @@
   // Setting frequency-scaling to 20%  
   digitalWrite(S0,HIGH);  
   digitalWrite(S1,LOW);  
-  Serial.begin(9600);  
- }  
- void loop()   {  
-  int i = 0;  
+
+  Serial.begin(9600);
+  pinMode(inputPin, INPUT_PULLUP); //internal pullup resistor is used to simplify the circuit
+    //  初始化键盘控制:
+    Keyboard.begin();
+  
+}
+
+void loop(){
+  while (digitalRead(inputPin) == HIGH) {}      //按键开始
+  while (digitalRead(inputPin) == LOW) {}       //按键结束
+  
+   int i = 0;  
   // Apply Red Filter  
   digitalWrite(S2,LOW);  
   digitalWrite(S3,LOW);  
@@ -63,27 +78,28 @@
   delay(100);  
   //调用函数
   decide(redData,greenData,blueData);
-  delay(1000);  
- }  
- 
-void decide(int R,int G, int B){
-  Serial.print(R);
-  Serial.print("---");
-  Serial.print(G);
-  Serial.print("---");
-  Serial.println(B);
-  //红
-  // if(R>35 && R<40 && G>115 && G<124 && B>84 && B<93){
-  //   Serial.println("红");
-  // }
-  //黑
-  // if(R>171 && R<180 && G>183 && G<191 && B>138 && B<144){
-  //   Serial.println("黑");
-  // }
-  //白
-  // if(R>22 && R<28 && G>21 && G<27 && B>15 && B<20){
-  //  Serial.println("白");
-  // }
+  delay(100);  
 }
 
- 
+
+void decide(int R,int G, int B){
+  if(R>35 && R<40 && G>111 && G<124 && B>84 && B<93){
+       Serial.println("红色"); //红
+       Serial.println("*****");
+       Keyboard.println("A");
+       Keyboard.println(" ");
+   }else if(R>169 && R<180 && G>181 && G<191 && B>134 && B<146){
+       Serial.println("黑色");//黑
+       Serial.println("****");
+       Keyboard.println("B");
+       Keyboard.println("  ");
+  }else if(R>22 && R<28 && G>21 && G<27 && B>15 && B<20){
+       Serial.println("白色");//白
+       Serial.println("****");
+       Keyboard.println("C");
+       Keyboard.println("  ");
+  }else{
+       Serial.println("没有定义颜色");
+       Serial.println("****");
+  }
+}
