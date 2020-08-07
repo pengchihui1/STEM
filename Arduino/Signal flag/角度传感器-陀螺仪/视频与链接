@@ -1,0 +1,90 @@
+角度传感器(angular transducer )
+陀螺仪(gyroscope)  GY-91 Gy-50  MPU6050  GY-521
+
+GY-521与MPU6050关系
+
+arduino  gyroscope系列
+
+arduino学习笔记十一--角度倾斜传感器(UNO /Leonardo)
+   https://blog.csdn.net/qq_37631068/article/details/103447311
+
+Arduino模拟多圈旋转角度传感器(Uno)
+    GND VCC Sinqal
+    博客链接 https://www.ncnynl.com/archives/201606/119.html
+
+Arduino300度模拟旋转角度传感器(Robot)   
+  重量   10g
+  GND VCC S
+  博客链接   https://www.ncnynl.com/archives/201606/118.html
+
+ Gyroscope and Accelerometer (GY-521/MPU6050) with Arduino | UATS A&S #12（Udo Leonardo Dvo0）（GY-521）
+      输出X Y Z
+      VCC（分支板上有一个稳压器。因此，您可以将其连接到3.3V和5V电源。）
+      GDN（地线）
+      SCL（I2C协议的串行时钟线。）
+      SDA（I2C协议的串行数据线。）
+      XDA（辅助数据=> I2C主串行数据，用于将模块连接到外部传感器。）
+      XCL（辅助时钟=> I2C主串行时钟，用于将模块连接到外部传感器。）
+      AD0（如果此引脚为LOW，则该板的I2C地址将为0x68。否则，如果该引脚为HIGH，则该地址将为0x69。）
+      INT（中断数字输出）
+      视频           https://www.youtube.com/watch?v=wTfSfhjhAU0 
+      博客链接(Uno)  http://www.mschoeffler.de/2017/10/05/tutorial-how-to-use-the-gy-521-module-mpu-6050-breakout-board-with-the-arduino-uno/
+     
+
+How To Track Orientation with Arduino | ADXL345 Accelerometer Tutorial（Board）
+      输出X Y Z
+      GND VCC CS INT1 INT2 SDO SDA SCL
+      视频       https://www.youtube.com/watch?v=KMhbV1p3MWk
+      博客链接   https://howtomechatronics.com/tutorials/arduino/how-to-track-orientation-with-arduino-and-adxl345-accelerometer/
+
+
+      如何通过Arduino代码使用MPU-6050加速度计和陀螺仪（Board）
+            输出X Y Z
+            VCC GND SCL SDA XDA XCL ADO INT
+            视频   https://www.youtube.com/watch?v=uhh7ik02aDc
+            博客链接  https://robojax.com/learn/arduino/?vid=robojax-mpu6050-basic
+
+      mpu 6050 arduino tutorial for beginners
+
+      视频      https://www.youtube.com/watch?v=SVI_NldMjlE
+      博客链接   https://www.instructables.com/id/MPU-6050-Tutorial-How-to-Program-MPU-6050-With-Ard/
+
+
+How to control servo using MPU6050 Gyroscope with Arduino（Breadboard Leonardo）
+      舵机与MPU6050结合
+      输出  X Y Z
+      晃动  MPU6050 控制舵机转动
+
+      MPU6050 Wiring:
+      SCL – A5
+      SDA – A4
+      VCC – 3.3V
+      GND – GND 
+      INT – PIN3
+
+      Servo Wiring:
+      VCC – 5V
+      GND – GND 
+      Control - PIN3
+      伺机库 https://github.com/jrowberg/i2cdevlib
+      视频    https://www.youtube.com/watch?v=vSKEH0FwhUE
+      程式码  https://drive.google.com/file/d/0B0SU0douW9lVenJ0Vng0QlEyUDQ/view
+
+Controlling a Servo with an Arduino and MPU6050
+      VCC 5V 
+      GND GND 
+      SCL A5 
+      SDA A4
+      视频https://www.youtube.com/watch?v=sOE8AjJ3gvQ
+      程式码  https://maker.pro/arduino/tutorial/how-to-control-a-servo-with-an-arduino-and-mpu6050
+
+
+
+
+mpu 6050 arduino tutorial for beginners（Uno）
+初学者
+参考git作者    jarzebski/Arduino-MPU6050
+github         https://github.com/jarzebski/Arduino-MPU6050
+视频测试        MPU6050_gyro_simple
+
+
