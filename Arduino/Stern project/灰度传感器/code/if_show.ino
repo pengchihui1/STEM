@@ -17,7 +17,7 @@ void loop(){
     }else{  
          previousGrayScale= GrayScale;
          GrayScale=value;   
-         int val=GrayScale-previousGrayScale;  //  绝对值 0-10 
+         int val=GrayScale-previousGrayScale;  //  差值 
         //  compare(previousGrayScale,GrayScale,val);
         Serial.print("新：");
 		Serial.println(GrayScale);
