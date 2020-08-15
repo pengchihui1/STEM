@@ -87,7 +87,7 @@ void compare(float y){
         Keyboard.println(7);
    }else if(y>149.5 && y<=174 ){//前进半速
         Keyboard.println(8);
-   }else if(y>1745 && y<=180||y>=-180&&y>-155.5){//前进全速
+   }else if(y>174 && y<=180||y>=-180&&y<-155.5){//前进全速
         Keyboard.println(9);
    }
 }
