@@ -70,7 +70,7 @@ void contrast(int prev,int after){
 		}
 }
 //速度
-void compare(float y){
+void compareAngle(float y){
    if(y>-33.5 &&  y<=-3){ //倒退全速
         Keyboard.println(1);
    }else if(y>-3 &&  y<=21.5){ //倒退半速
